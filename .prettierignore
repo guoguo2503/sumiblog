@@ -1,0 +1,12 @@
+# 忽略有格式问题的文件
+components/ThemeSwitch.tsx
+layouts/AuthorLayout.tsx
+
+# 构建文件
+.next/
+out/
+build/
+dist/
+
+# 依赖
+node_modules/ 
