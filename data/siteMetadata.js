@@ -1,28 +1,22 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'SumiBlog',
-  author: 'Tails Azimuth',
+  author: 'Cybo89757',
   headerTitle: 'SumiBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  description: 'A blog created with love and freedom',
+  language: 'ch',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
+  email: 'jenniferfruit@outlook.com',
   github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
-  locale: 'en-US',
+  locale: 'ch',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {
