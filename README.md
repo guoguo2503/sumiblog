@@ -1,11 +1,10 @@
-![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
+![tailwind-nextjs-banner]
 
 # Tailwind Nextjs Starter Blog
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/timlrx/tailwind-nextjs-starter-blog?style=social)](https://github.com/timlrx/tailwind-nextjs-starter-blog/forks)
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftimlrxx)](https://x.com/timlrxx)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/timlrx)](https://github.com/sponsors/timlrx)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
 
@@ -192,7 +191,7 @@ npx degit 'timlrx/tailwind-nextjs-starter-blog'
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
 Please note, that if you are using Windows, you may need to run:
@@ -206,7 +205,7 @@ $env:PWD = $(Get-Location).Path
 First, run the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -307,7 +306,7 @@ See [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-j
 Run:
 
 ```sh
-$ EXPORT=1 UNOPTIMIZED=1 yarn build
+$ EXPORT=1 UNOPTIMIZED=1 npm run build
 ```
 
 Then, deploy the generated `out` folder or run `npx serve out` it locally.
@@ -316,10 +315,10 @@ Then, deploy the generated `out` folder or run `npx serve out` it locally.
 > If deploying with a URL base path, like https://example.org/myblog you need an extra `BASE_PATH` shell-var to the build command:
 >
 > ```sh
-> $ EXPORT=1 UNOPTIMIZED=1 BASE_PATH=/myblog yarn build
+> $ EXPORT=1 UNOPTIMIZED=1 BASE_PATH=/myblog npm run build
 > ```
 >
-> => In your code, `${process.env.BASE_PATH || ''}/robots.txt` will print `"/myblog/robots.txt"` in the `out` build (or only `/robots.txt` if `yarn dev`, ie: on localhost:3000)
+> => In your code, `${process.env.BASE_PATH || ''}/robots.txt` will print `"/myblog/robots.txt"` in the `out` build (or only `/robots.txt` if `npm run dev`, ie: on localhost:3000)
 
 > [!TIP]
 > Alternatively to `UNOPTIMIZED=1`, to continue using `next/image`, you can use an alternative image optimization provider such as Imgix, Cloudinary or Akamai. See [image optimization documentation](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#image-optimization) for more details.
