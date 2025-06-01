@@ -1,3 +1,14 @@
+本人版本 sumiblog
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/e9330743-3d14-451f-87da-d7c2068a94f0" />
+
+下面内容为源代码rm.md，成熟后更改。
+本网页不涉及AI和API，纯静态配置
+
+
+
+
+
 ![tailwind-nextjs-banner]
 
 # Tailwind Nextjs Starter Blog
